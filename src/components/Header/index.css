@@ -1,7 +1,13 @@
 /* Write your CSS code here */
 
+@media screen and (min-width: 768px) {
+  .header-main-container {
+    margin-top: 10px;
+  }
+}
+
 .logo-and-logout-icon-container {
-  padding: 18px 10px;
+  padding: 16px 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,19 +15,18 @@
 
 @media screen and (min-width: 768px) {
   .logo-and-logout-icon-container {
-    padding: 12px 28px;
+    padding: 12px 32px;
   }
 }
 
 .website-logo {
-  width: 90px;
-  height: 25px;
+  width: 110px;
 }
 
 @media screen and (min-width: 768px) {
   .website-logo {
-    width: 120px;
-    height: 35px;
+    width: 150px;
+    /* height: 35px; */
   }
 }
 
@@ -76,7 +81,7 @@
   display: flex;
   justify-content: space-around;
   background-color: #e6f6ff;
-  padding: 15px 0;
+  padding: 12px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -86,5 +91,5 @@
 }
 
 .nav-icon {
-  width: 28px;
+  width: 24px;
 }

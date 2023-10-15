@@ -3,7 +3,7 @@
 import './index.css'
 
 const Header = () => (
-  <div>
+  <div className="header-main-container">
     <div className="logo-and-logout-icon-container">
       <img
         src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
