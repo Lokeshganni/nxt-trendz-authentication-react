@@ -1,0 +1,90 @@
+/* Write your CSS code here */
+
+.logo-and-logout-icon-container {
+  padding: 18px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-and-logout-icon-container {
+    padding: 12px 28px;
+  }
+}
+
+.website-logo {
+  width: 90px;
+  height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 120px;
+    height: 35px;
+  }
+}
+
+.nav-logout-icon {
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-logout-icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-para-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-para-container {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.nav-para {
+  color: #475569;
+  font-size: 18px;
+  margin: 0 8px;
+  padding: 0;
+  font-weight: 500;
+}
+
+.logout-btn {
+  background-color: #0967d2;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin: 0 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.nav-icons-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e6f6ff;
+  padding: 15px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-icons-container {
+    display: none;
+  }
+}
+
+.nav-icon {
+  width: 28px;
+}

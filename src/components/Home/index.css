@@ -1,0 +1,95 @@
+/* Write your CSS code here */
+
+.home-main-container {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .home-main-container {
+    flex-direction: row;
+    padding: 3%;
+  }
+}
+
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 15px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .home-content-container {
+    width: 55%;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+
+.home-title {
+  font-size: 26px;
+  text-align: center;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .home-title {
+    text-align: start;
+    font-size: 32px;
+  }
+}
+
+.home-image-mobile {
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .home-image-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-image-laptop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-image-laptop {
+    width: 100%;
+  }
+
+  .home-image-laptop-container {
+    width: 45%;
+    margin-left: 20px;
+  }
+}
+
+.home-description {
+  font-size: 14px;
+  text-align: center;
+  color: #64748b;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .home-description {
+    text-align: start;
+    font-size: 16px;
+  }
+}
+
+.shop-now-btn {
+  background-color: #0967d2;
+  color: white;
+  font-size: 12px;
+  padding: 8px 25px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
