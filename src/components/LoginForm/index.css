@@ -17,7 +17,7 @@
   .login-main-container {
     flex-direction: row;
     justify-content: center;
-    padding: 20px 4%;
+    padding: 20px 5%;
   }
 }
 
@@ -63,8 +63,8 @@
   .login-form-container {
     width: 35%;
     box-shadow: 0px 4px 16px 0px #bfbfbf;
-    border-radius: 8px;
-    padding: 5% 3%;
+    border-radius: 10px;
+    padding: 5% 4%;
   }
 }
 
@@ -74,15 +74,17 @@
   }
 }
 
-.login-website-form-logo-card {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 15px;
-}
+@media screen and (min-width: 768px) {
+  .login-website-form-logo-card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
 
-.login-website-form-logo {
-  width: 120px;
+  .login-website-form-logo {
+    width: 120px;
+  }
 }
 
 .login-form-label-ele {
@@ -116,4 +118,11 @@
   margin-top: 5px;
   border-radius: 8px;
   width: 100%;
+}
+
+.error-msg {
+  color: #ff0b37;
+  font-size: 12px;
+  margin-top: 3px;
+  font-weight: 600;
 }

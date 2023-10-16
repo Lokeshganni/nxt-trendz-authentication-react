@@ -15,14 +15,14 @@ const Header = () => (
         alt="nav logout"
         className="nav-logout-icon"
       />
-      <div className="nav-para-container">
-        <p className="nav-para">Home</p>
-        <p className="nav-para">Products</p>
-        <p className="nav-para">Cart</p>
+      <ul className="nav-para-container">
+        <li className="nav-para">Home</li>
+        <li className="nav-para">Products</li>
+        <li className="nav-para">Cart</li>
         <button type="button" className="logout-btn">
           Logout
         </button>
-      </div>
+      </ul>
     </div>
     <div className="nav-icons-container">
       <img
